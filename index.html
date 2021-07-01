@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <title> Formulário Loja </title>
+        
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand fst-italic" href="#"> Navbar </a>
+
+              <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                  <a id="form" class="nav-link active" aria-current="page" href="index.html"> Formulário </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </nav>
+
+
+          <!-- Form -->
+          <h1 id="title"> Cadastre-se em nossa loja! </h1>
+
+          <div class="container">
+        
+            <form class="row g-3 border border-1 border-dark rounded p-4">
+                <div class="col-12">
+                  <label for="inputEmail" class="form-label"> Email (*) </label>
+                  <input required type="email" class="form-control" id="inputEmail" placeholder="Digite o seu e-mail">
+
+                </div>
+
+                <div class="col-12">
+                  <label for="inputPassword" class="form-label"> Senha (*) </label>
+                  <input required type="password" class="form-control" id="inputPassword" placeholder="Digite a sua senha">
+
+                </div>
+
+                <div class="col-12">
+                    <label for="inputPasswordC" class="form-label"> Confirme a sua senha (*) </label>
+                    <input required type="password" class="form-control" id="inputPasswordC" placeholder="Confirme a sua senha">
+  
+                  </div>
+
+                <div class="col-12">
+                  <label for="inputUser" class="form-label"> Nome de usuário (*) </label>
+                  <input required type="text" class="form-control" id="inputUser" placeholder="Digite o seu nome de usuário">
+
+                </div>
+
+                <div class="col-6">
+                    <label for="inputCPF" class="form-label"> CPF (*) </label>
+                    <input required type="text" class="form-control" id="inputCPF" placeholder="Digite o seu CPF">
+  
+                </div>
+
+                <div class="col-6">
+                  <label for="inputDate" class="form-label"> Data de Nascimento (*) </label>
+                  <input required type="date" class="form-control" id="inputDate">
+
+                </div>
+
+                <div class="col-6">
+                    <label for="inputCat" class="form-label"> Categoria (opcional) </label>
+                    <select id="inputCat" class="form-select">
+                      <option selected> Escolha o seu tipo de livro </option>
+                      <option> Romance </option>
+                      <option> Drama </option>
+                      <option> Suspense </option>
+                      <option> Terror </option>
+                      <option> Mistério </option>
+                      <option> Ficção Científica </option>
+  
+                    </select>
+
+                </div>
+
+                <div class="col-6">
+                    <label for="inputLang" class="form-label"> Idioma (opcional) </label>
+                    <select id="inputLang" class="form-select">
+                      <option selected> Escolha o seu idioma </option>
+                      <option> Inglês </option>
+                      <option> Português do Brasil </option>
+                      <option> Espanhol </option>
+                      <option> Francês </option>
+                      <option> Alemão </option>
+                      <option> Chinês (Tradicional) </option>
+                      <option> Japonês (Katakana) </option>
+  
+                    </select>
+
+                </div>
+
+                <div class="col-8">
+                    <label for="inputAddress" class="form-label"> Endereço (*) </label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Digite o seu endereço">
+  
+                  </div>
+
+                <div class="col-4">
+                  <label for="inputNumber" class="form-label"> Número (*) </label>
+                  <input type="number" class="form-control" id="inputNumber" placeholder="Digite o número da sua casa">
+
+                </div>
+
+                <div class="form-floating">
+                    <textarea class="form-control" id="floatingTextarea2" style="height: 128px"> </textarea>
+                    <label for="floatingTextarea2"> Gostou da nossa loja? Nos dê sua opinião! </label>
+
+                  </div>
+
+
+                <div class="col-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="check">
+                        <label class="form-check-label" for="check"> Receber novidades por e-mail? </label>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary"> Cadastrar </button>
+
+                </div>
+
+              </form>
+
+          </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+
+
+</html>
